@@ -31,7 +31,7 @@ with no argument: It will just show the files in the working directory. In my ca
 
 with a path to a directory as an argument: The working directory is /home. `ls lecture1` lists the file names in the lecture1 directory although it does not change the current directory. 
 
-with a path to a file as an argument: `ls Hello.class` just lists the name of the file name which is the argument. 
+with a path to a file as an argument: `ls Hello.class` just lists the name of the file which is the argument. The working directory in this case is /home, which does not change. 
 
 <img width="733" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/e41a0ac1-60a7-4911-bedf-372c4dcf3cab">
 
