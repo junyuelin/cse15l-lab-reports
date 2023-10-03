@@ -29,7 +29,7 @@ for `ls`,
 
 with no argument: It will just show the files in the working directory. In my case, just the files in /home directory 
 
-with a path to a directory as an argument: The working directory is /home. `ls lecture1` lists the file names in the lecture1 directory although it does change the current directory. 
+with a path to a directory as an argument: The working directory is /home. `ls lecture1` lists the file names in the lecture1 directory although it does not change the current directory. 
 
 with a path to a file as an argument: `ls Hello.class` just lists the name of the file name which is the argument. 
 
