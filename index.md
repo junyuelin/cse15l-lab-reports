@@ -31,14 +31,14 @@ with no argument: It will just show the files in the working directory. In my ca
 
 with a path to a directory as an argument: The working directory is /home. `ls lecture1` lists the file names in the lecture1 directory although it does not change the current directory. 
 
-with a path to a file as an argument: `ls Hello.class` just lists the name of the file which is the argument. 
+with a path to a file as an argument: `ls Hello.class` just lists the name of the file which is the argument. The working directory is lecture1.
 
 <img width="733" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/e41a0ac1-60a7-4911-bedf-372c4dcf3cab">
 
 for `cat`,
 
-with no argument: Almost crash. It doesn't end. Don't do it again. I have to use control C to exit.
+with no argument: Almost crash. It doesn't end. Don't do it again. I have to use control C to exit. The working directory is lecture1.
 
-with a path to a directory as an argument: Outputs an error. `cat: lecture1: Is a directory`. So I guess `cat` cannot have a directory name as an argument. 
+with a path to a directory as an argument: Outputs an error. `cat: lecture1: Is a directory`. So I guess `cat` cannot have a directory name as an argument. The working directory is /home. 
 
-with a path to a file as an argument: Show the content in the file. 
+with a path to a file as an argument: Show the content in the file. The working directory is /home/lecture1.
