@@ -40,4 +40,5 @@ Using the command line, show with ls and take screenshots of:
 
 ## Part 3
 In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before.
-It is really cool that we can connect to a computer in the CSE basement remotely by using the `ssh` command followed by our course-specific account to establish a connection between the client and the server. Also it is really cool that we can write a java program to start a web server and change the content showed on the web if the url entered is changed. 
+
+It is really cool that we can connect to a computer in the CSE basement remotely by using the `ssh` command followed by our course-specific account to establish a connection between the client and the server. Also it is really cool that we can write a java program to start a web server and change the content showed on the web if the url entered is changed. It is interesting to know how the web server works under the hood and implement the StringServer.java
