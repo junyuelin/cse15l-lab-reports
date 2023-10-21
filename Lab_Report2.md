@@ -26,3 +26,9 @@ By values, we mean specific Strings, ints, URIs, and so on. "abc" is a value, 45
 3. After the second request `/add-message?s=How are you`, `num` is incremented to 2 because the second request was sent int and `output` is changed to `1. Hello\n2. How are you`. Also the argument `url` is changed to the URL `https://localhost2310/add-message?s=How are you`.
 
 ## Part 2
+Using the command line, show with ls and take screenshots of:
+
+1. The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
+2. The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)
+3. A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
+<img width="782" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/55801474-437c-4a44-ae58-4f1be0fde187">
