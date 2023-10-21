@@ -29,6 +29,10 @@ By values, we mean specific Strings, ints, URIs, and so on. "abc" is a value, 45
 Using the command line, show with ls and take screenshots of:
 
 1. The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
+
+
 2. The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)
+<img width="317" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/1c828fe9-57da-4291-b1df-bd38a4a6da34">
+
 3. A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
 <img width="782" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/55801474-437c-4a44-ae58-4f1be0fde187">
