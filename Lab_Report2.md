@@ -7,10 +7,11 @@ Below is the screenshot of my code.
 
 For each of the two screenshots, describe:
 
-Which methods in your code are called?\n
-What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+1. Which methods in your code are called?
+2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 By values, we mean specific Strings, ints, URIs, and so on. "abc" is a value, 456 is a value, new URI("http://...") is a value, and so on.)
 
 First screenshot: 
-1. The main() and handleRequest() methods are called
+1. The main() and handleRequest() methods are called.
+2. 
