@@ -40,3 +40,4 @@ Using the command line, show with ls and take screenshots of:
 
 ## Part 3
 In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before.
+It is really cool that we can connect to a computer in the CSE basement remotely by using the `ssh` command followed by our course-specific account.
