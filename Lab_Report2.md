@@ -14,4 +14,5 @@ By values, we mean specific Strings, ints, URIs, and so on. "abc" is a value, 45
 
 First screenshot: 
 1. The main() and handleRequest() methods are called.
-2. 
+2. The main() method takes the request as a String[] argument and the handleRequest() method takes a URI object as an argument.
+3. 
