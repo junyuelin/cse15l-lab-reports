@@ -1,3 +1,5 @@
+# Lab Report 2
+
 Below is the screenshot of my code.
 
 
@@ -15,4 +17,8 @@ By values, we mean specific Strings, ints, URIs, and so on. "abc" is a value, 45
 First screenshot: 
 1. The main() and handleRequest() methods are called.
 2. The main() method takes the request as a String[] argument and the handleRequest() method takes a URI object as an argument. There are two fields in the Handler class. One is `num` representing the number of requests so far and the other one is the String `output` representing the message shown on the page. `num` is initialized with the value 0 because at the beginning there is no request. `output` is initialized as an empty string because with no request, there shouldn't be any message on the page.
-3. After the first request `/add-message?s=Hello`, `num` is incremented to 1 because the first request occurred. And `output` is changed 
+3. After the first request `/add-message?s=Hello`, `num` is incremented to 1 because the first request occurred. And `output` is changed to `1. Hello` to show the message on the page.
+
+Second screenshot:
+1. The main() and handleRequest() methods are called.
+2. The main() method takes the request as a String[] argument and the handleRequest() method takes a URI object as an argument. There are two fields in the Handler class. One is `num` representing the number of requests so far and the other one is the String `output` representing the message shown on the page. `num` is initialized with the value 0 because at the beginning there is no request. `output` is initialized as an empty string because with no request, there shouldn't be any message on the page.
