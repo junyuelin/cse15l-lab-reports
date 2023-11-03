@@ -56,13 +56,13 @@ The code initially changed the element starting from the left of the list with t
 * For example, we saw the -name option for find in class. For each of those options, give 2 examples of using it on files and directories from ./technical. Show each example as a code block that shows the command and its output, and write a sentence or two about what it’s doing and why it’s useful.
 
 source: https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix
-   - example1:
+   - example1: It is useful when we want to find some specific information but we don't remember which file potentially contains. 
    - search for a string `Tuesday, September 11, 2001` in your current directory and all other subdirectories by using the - r flag; notice that the current directory is `technical/911report`, and there is no subdirectory, thus only the files in `technical/911report` are searched. 
 ```python
 (base) jyl@Junyues-MacBook-Pro 911report % grep -r "Tuesday, September 11, 2001" *
 chapter-1.txt:    Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work. Some made their way to the Twin Towers, the signature structures of the World Trade Center complex in New York City. Others went to Arlington, Virginia, to the Pentagon. Across the Potomac River, the United States Congress was back in session. At the other end of Pennsylvania Avenue, people began to line up for a White House tour. In Sarasota, Florida, President George W. Bush went for an early morning run.
 ```
-   - example2:
+   - example2: It is useful when we want to find some specific information but we don't remember which file potentially contains the information. 
    - search for a string `THE` in your current directory and all other subdirectories by using the - r flag; notice that the current directory is `technical` thus, all the files in the subdirectories under then `technical` directory are searched recursively 
 ```python
 (base) jyl@Junyues-MacBook-Pro technical % grep -r "THE" *    
@@ -283,7 +283,7 @@ government/Post_Rate_Comm/ReportToCongress2002WEB.txt:REPORT TO THE CONGRESS:
 government/Post_Rate_Comm/ReportToCongress2002WEB.txt:AUTHORITY OF THE UNITED STATES POSTAL SERVICE TO INTRODUCE NEW
 government/Post_Rate_Comm/ReportToCongress2002WEB.txt:REPORT TO THE CONGRESS:
 ```
-   - example3:
+   - example3: It is useful when we don't remember if the string we want to find is capitalized or not
    - to ignore the case sensitivity, we use `-i` flag; notice that if we did not use `-i`, the grep command would only ouput one line, however if we use `-i` flag, turns out there are many lines containing `we have` ignoring case sensitivity.  
 ```python
 (base) jyl@Junyues-MacBook-Pro 911report % grep -i "we have" chapter-1.txt
@@ -309,7 +309,7 @@ government/Post_Rate_Comm/ReportToCongress2002WEB.txt:REPORT TO THE CONGRESS:
 (base) jyl@Junyues-MacBook-Pro 911report % grep "WE HAVE" chapter-1.txt   
 "WE HAVE SOME PLANES"
 ```
-   - example4: 
+   - example4: It is useful when we don't remember if the string we want to find is capitalized or not
    - notice that the string is `Addition` with the capital A, but in the output, we have `addition`. Thus we are searching string ignoring case sensitivity. 
 ```python
     (base) jyl@Junyues-MacBook-Pro 911report % grep -i "Addition" chapter-1.txt
@@ -320,19 +320,19 @@ Military Notification and Response. Boston Center did not follow the protocol in
     More than the actual events, inaccurate government accounts of those events made it appear that the military was notified in time to respond to two of the hijackings, raising questions about the adequacy of the response. Those accounts had the effect of deflecting questions about the military's capacity to obtain timely and accurate information from its own sources. In addition, they overstated the FAA's ability to provide the military with timely and useful information that morning.
     When they learned a second plane had struck the World Trade Center, nearly everyone in the White House told us, they immediately knew it was not an accident. The Secret Service initiated a number of security enhancements around the White House complex. The officials who issued these orders did not know that there were additional hijacked aircraft, or that one such aircraft was en route to Washington. These measures were precautionary steps taken because of the strikes in New York.
 ```
-   - example5:
+   - example5: It is useful when we want to do analysis on the text, such as how many times certain string appeared in the text. 
    - to count the total number of lines where the string pattern `addition` appears or resides; we can confirm it is actually 6 lines by looking at example 4
 ```python
 (base) jyl@Junyues-MacBook-Pro 911report % grep -c "addition" chapter-1.txt
 6
 ```
-   - example6:
+   - example6: It is useful when we want to do analysis on the text, such as how many times certain string appeared in the text.
    - to count the total number of lines where the string pattern `Tuesday` appears or resides
 ```python
 (base) jyl@Junyues-MacBook-Pro 911report % grep -c "Tuesday" chapter-1.txt
 3
 ```
-   - example 7:
+   - example 7: It is useful when we want to go back to the text and find the specific line containing the string pattern  
    - To number the lines where the string pattern `addition` is matched
 ```python
 (base) jyl@Junyues-MacBook-Pro 911report % grep -n "addition" chapter-1.txt
@@ -343,7 +343,7 @@ Military Notification and Response. Boston Center did not follow the protocol in
 538:    More than the actual events, inaccurate government accounts of those events made it appear that the military was notified in time to respond to two of the hijackings, raising questions about the adequacy of the response. Those accounts had the effect of deflecting questions about the military's capacity to obtain timely and accurate information from its own sources. In addition, they overstated the FAA's ability to provide the military with timely and useful information that morning.
 574:    When they learned a second plane had struck the World Trade Center, nearly everyone in the White House told us, they immediately knew it was not an accident. The Secret Service initiated a number of security enhancements around the White House complex. The officials who issued these orders did not know that there were additional hijacked aircraft, or that one such aircraft was en route to Washington. These measures were precautionary steps taken because of the strikes in New York.
 ```
-   - example8:
+   - example8: It is useful when we want to go back to the text and find the specific line containing the string pattern
    - To number the lines where the string pattern `Tuesday` is matched
 ```python
 (base) jyl@Junyues-MacBook-Pro 911report % grep -n "Tuesday" chapter-1.txt
