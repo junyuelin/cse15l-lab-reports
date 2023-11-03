@@ -33,7 +33,7 @@ Using the command line, show with ls and take screenshots of:
 <img width="765" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/15e98fdc-ea94-490d-a86e-5004b0637085">
 
 2. The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)
-<img width="317" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/1c828fe9-57da-4291-b1df-bd38a4a6da34">
+<img width="440" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/ff987de9-960e-4f60-a6b0-ebbc28dac21d">
 
 3. A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
 <img width="782" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/55801474-437c-4a44-ae58-4f1be0fde187">
