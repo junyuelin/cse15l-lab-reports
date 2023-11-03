@@ -57,11 +57,13 @@ The code initially changed the element starting from the left of the list with t
 
 source: https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix
    - example1:
+   - search for a string `Tuesday, September 11, 2001` in your current directory and all other subdirectories by using the - r flag; notice that the current directory is `technical/911report`, and there is no subdirectory, thus only the files in `technical/911report` are searched. 
 ```python
 (base) jyl@Junyues-MacBook-Pro 911report % grep -r "Tuesday, September 11, 2001" *
 chapter-1.txt:    Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work. Some made their way to the Twin Towers, the signature structures of the World Trade Center complex in New York City. Others went to Arlington, Virginia, to the Pentagon. Across the Potomac River, the United States Congress was back in session. At the other end of Pennsylvania Avenue, people began to line up for a White House tour. In Sarasota, Florida, President George W. Bush went for an early morning run.
 ```
    - example2:
+   - search for a string `THE` in your current directory and all other subdirectories by using the - r flag; notice that the current directory is `technical` thus, all the files in the subdirectories under then `technical` directory are searched
 ```python
 (base) jyl@Junyues-MacBook-Pro technical % grep -r "THE" *    
 911report/chapter-13.1.txt:            HOW TO DO IT? A DIFFERENT WAY OF ORGANIZING THE GOVERNMENT
