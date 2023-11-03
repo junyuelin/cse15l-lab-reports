@@ -24,10 +24,18 @@ static void reverseInPlace(int[] arr) {
  }
 ```
 ```python
-    @Test
-    public void testReverseInPlace2() {
-        int[] input1 = {3,2,1};
-        ArrayExamples.reverseInPlace(input1);
-        assertArrayEquals(new int[]{1,2,3}, input1);
-    }
+ @Test
+ public void testReverseInPlace2() {
+     int[] input1 = {3,2,1};
+     ArrayExamples.reverseInPlace(input1);
+     assertArrayEquals(new int[]{1,2,3}, input1);
+ }
 ```
+```python
+@Test
+public void testReversed1() {
+ int[] input1 = { };
+ assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+}
+```
+<img width="1011" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/d241bc12-e697-4e5d-880d-ad612ae44fd7">
