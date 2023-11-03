@@ -28,6 +28,7 @@ public void testReversed1() {
 * The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
 <img width="1011" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/d241bc12-e697-4e5d-880d-ad612ae44fd7">
 * The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+
 before:
 ```python
 static void reverseInPlace(int[] arr) {
@@ -35,6 +36,7 @@ static void reverseInPlace(int[] arr) {
      arr[i] = arr[arr.length - i - 1];
    }
  }
+```
 after:
 ```python
 static void reverseInPlace(int[] arr) {
@@ -44,4 +46,5 @@ static void reverseInPlace(int[] arr) {
    arr[arr.length - i - 1] = temp;
  }
 }
+```
 Briefly describe why the fix addresses the issue.
