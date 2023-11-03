@@ -48,3 +48,4 @@ static void reverseInPlace(int[] arr) {
 }
 ```
 Briefly describe why the fix addresses the issue.
+The code initially changed the element starting from the left of the list with the element starting from the right, but failed to store the original element from the left, thus if we use the code to reverse array {3,2,1}, it will result in {1,2,1}. When the loop goes past the middle index, the result will become faulty. 
