@@ -22,6 +22,7 @@ key pressed: `cd lab7` `command-c` `<enter>` `command-v` `<enter>` `command-c` `
 First I changed my directory to `lab7` folder, and then I copied `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` from the lab instruction. Then I pasted the command to my ieng6 terminal. I did the same for command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` It showed that the test failed. 
 
 - Edit the code file to fix the failing test
+
 <img width="385" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/52cb9529-7eb1-408a-b3df-502fa053864f">
 <img width="380" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/8a3d8fa7-5ae7-4009-87ed-04f65a0e4166">
 <img width="395" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/f8c1d729-6a47-4743-8563-5e275f26cb36">
@@ -36,9 +37,11 @@ First I open the `ListExamples.java` file in Vim. And then `:44` to navigate the
 key pressed: `command-c` `<enter>` `command-v` `<enter>` `command-c` `<enter>` `command-v` `<enter>`
 
 I copied `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` from the lab instruction. Then I pasted the command to my ieng6 terminal. I did the same for command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`
+
 - Commit and push the resulting change to your Github account (you can pick any commit message!)
+
 <img width="525" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/a672e877-e88d-4d94-8a5a-12fe556819e1">
 
-key pressed: `git add .` `git commit -m `changed index1 to index2` `git push`
+key pressed: `git add .` `git commit -m changed index1 to index2` `git push`
 
 First git add all the changes, then commit with the message `changed index1 to index2`. Finally, push to my fork repo. 
