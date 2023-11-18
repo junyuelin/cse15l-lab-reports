@@ -1,4 +1,6 @@
 - Log into ieng6
+<img width="676" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/e03c8686-995a-48f9-983d-d52fcabed7f9">
+
 - Clone your fork of the repository from your Github account (using the SSH URL)
 - Run the tests, demonstrating that they fail
 - Edit the code file to fix the failing test
