@@ -35,3 +35,8 @@ key pressed: `command-c` `<enter>` `command-v` `<enter>` `command-c` `<enter>` `
 
 I copied `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` from the lab instruction. Then I pasted the command to my ieng6 terminal. I did the same for command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`
 - Commit and push the resulting change to your Github account (you can pick any commit message!)
+<img width="525" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/a672e877-e88d-4d94-8a5a-12fe556819e1">
+
+key pressed: `git add .` `git commit -m `changed index1 to index2` `git push`
+
+First git add all the changes, then commit with the message `changed index1 to index2`. Finally, push to my fork repo. 
