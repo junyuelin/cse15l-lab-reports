@@ -15,7 +15,7 @@ The `git clone git@github.com:junyuelin/lab7.git` command was 1 up in the histor
 - Run the tests, demonstrating that they fail
 <img width="675" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/6e75a1a6-458b-4625-8e9b-1e0f559f472f">
 
-key pressed: `cd lab7` `command-c` `<enter>` `command-v` `<enter>`
+key pressed: `cd lab7` `command-c` `<enter>` `command-v` `<enter>` `command-c` `<enter>` `command-v` `<enter>`
 
 First I changed my directory to `lab7` folder, and then I copied `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` from the lab instruction. Then I pasted the command to my ieng6 terminal. I did the same for command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` It showed that the test failed. 
 
@@ -27,8 +27,11 @@ First I changed my directory to `lab7` folder, and then I copied `javac -cp .:li
 
 key pressed: `vim ListExamples.java` `:44` `<enter>` `<e>` `<r2>` `<enter>` `:wq!` `<enter>`
 
-First I open the `ListExamples.java` file in Vim. And then `:44` to navigate the cursor to the line 44. Then <e> skips to the end of the first word. Then, <r2> to replace 1 with 2. Lastly, `:wq!` to force the write and quit.
+First I open the `ListExamples.java` file in Vim. And then `:44` to navigate the cursor to the line 44. Then `<e>` skips to the end of the first word. Then, `<r2>` to replace 1 with 2. Lastly, `:wq!` to force the write and quit.
 - Run the tests, demonstrating that they now succeed
 <img width="672" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/0cab6fa9-82d2-4e70-9855-bea81924ccfc">
 
+key pressed: `command-c` `<enter>` `command-v` `<enter>` `command-c` `<enter>` `command-v` `<enter>`
+
+I copied `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` from the lab instruction. Then I pasted the command to my ieng6 terminal. I did the same for command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`
 - Commit and push the resulting change to your Github account (you can pick any commit message!)
