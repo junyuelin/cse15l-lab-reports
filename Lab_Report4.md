@@ -13,7 +13,7 @@ key pressed: `<up>` `<enter>`
 The `git clone git@github.com:junyuelin/lab7.git` command was 1 up in the history so I used the up arrow to access it. 
 
 - Run the tests, demonstrating that they fail
-<img width="675" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/ebb46e4a-110d-411f-9580-6fa0b1477ce8">
+<img width="675" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/6e75a1a6-458b-4625-8e9b-1e0f559f472f">
 
 key pressed: `cd lab7` `command-c` `<enter>` `command-v` `<enter>`
 
@@ -25,10 +25,10 @@ First I changed my directory to `lab7` folder, and then I copied `javac -cp .:li
 <img width="395" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/f8c1d729-6a47-4743-8563-5e275f26cb36">
 <img width="377" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/077c2b25-5702-43cd-9242-3b0005adb514">
 
-key pressed: `vim ListExamples.java` `:44` `<enter>` `<e>` `<r2>` `:wq!` `<enter>`
+key pressed: `vim ListExamples.java` `:44` `<enter>` `<e>` `<r2>` `<enter>` `:wq!` `<enter>`
 
 First I open the `ListExamples.java` file in Vim. And then `:44` to navigate the cursor to the line 44. Then <e> skips to the end of the first word. Then, <r2> to replace 1 with 2. Lastly, `:wq!` to force the write and quit.
 - Run the tests, demonstrating that they now succeed
-<img width="668" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/43259a95-07fb-422c-844a-c58134964a3b">
+<img width="672" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/0cab6fa9-82d2-4e70-9855-bea81924ccfc">
 
 - Commit and push the resulting change to your Github account (you can pick any commit message!)
