@@ -17,7 +17,7 @@ The `git clone git@github.com:junyuelin/lab7.git` command was 1 up in the histor
 
 key pressed: `cd lab7` `command-c` <enter> `command-v` <enter>
 
-First I changed my directory to `lab7` folder, and then I copied `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` from the lab instruction. Then I pasted the command to my ieng6 terminal. 
+First I changed my directory to `lab7` folder, and then I copied `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` from the lab instruction. Then I pasted the command to my ieng6 terminal. I did the same for command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ...` It showed that the test failed. 
 
 - Edit the code file to fix the failing test
 - Run the tests, demonstrating that they now succeed
