@@ -6,8 +6,12 @@
 3. Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
 4. At the end, all the information needed about the setup including:
 - The file & directory structure needed
+- <img width="858" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/ab94d7b8-120b-4d7f-a854-ea120e02bc81">
 - The contents of each file before fixing the bug
+- <img width="580" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/8857283c-a8da-47d2-8e67-596796d57fc8">
+- <img width="846" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/1d13c175-a1d3-4f80-8515-71a43f4dc3b9">
 - The full command line (or lines) you ran to trigger the bug
+- 
 - A description of what to edit to fix the bug
 
 **PART 2 - Reflection**
