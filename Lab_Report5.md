@@ -1,7 +1,7 @@
 **PART 1 - Debugging Scenario**
 1. The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is. (Don’t actually make the post! Just write the content that would go in such a post)
 <img width="598" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/45817483-a9a1-4732-b1c6-5213f89a8ac4">
-
+Student post: For some reason, my code doesn't pass the testMerge2 test. Based on the output error, I am guessing there is something wrong with `merge` function on line 44. But I am not sure how to fix it. 
 2. A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.)
 3. Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
 4. At the end, all the information needed about the setup including:
@@ -10,9 +10,11 @@
 - The contents of each file before fixing the bug
 - <img width="580" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/8857283c-a8da-47d2-8e67-596796d57fc8">
 - <img width="846" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/1d13c175-a1d3-4f80-8515-71a43f4dc3b9">
+- <img width="725" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/ece79458-dbfe-4f22-b6df-e853dcba4bad">
 - The full command line (or lines) you ran to trigger the bug
-- 
+- <img width="601" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/b082259d-697f-4028-9bb4-981d2f912d74">
 - A description of what to edit to fix the bug
+- 
 
 **PART 2 - Reflection**
 
