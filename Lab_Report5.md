@@ -6,6 +6,7 @@ Student post: For some reason, my code doesn't pass the `testMerge2` test. Based
 2. A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.)
 
 TA post: You are right that the error might occur on line 44. Maybe you can try take a look at the file content by using command `vim ListExamples.java`
+
 3. Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
 4. At the end, all the information needed about the setup including:
 - The file & directory structure needed
