@@ -1,5 +1,6 @@
 **PART 1 - Debugging Scenario**
 1. The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is. (Don’t actually make the post! Just write the content that would go in such a post)
+<img width="598" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/45817483-a9a1-4732-b1c6-5213f89a8ac4">
 
 2. 
 **PART 2 - Reflection**
