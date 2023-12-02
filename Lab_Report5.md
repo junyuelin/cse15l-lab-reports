@@ -8,9 +8,11 @@ Student post: For some reason, my code doesn't pass the `testMerge2` test. Based
 TA post: You are right that the error might occur on line 44. Maybe you can try take a look at the file content by using command `vim ListExamples.java` and see if you can locate the error.
 
 3. Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
+<img width="598" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/34eee9c5-248d-4468-99d9-8888e31b8361">
+Student Post: Thanks for your help! Turns out I mistyped `index2` to `index1`. After I changed `index1` to `index2`, and run the bash script again I passed all the tests. 
+<img width="340" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/795b0e2b-55d0-4625-a850-1952a5702f59">
 
-
-5. At the end, all the information needed about the setup including:
+4. At the end, all the information needed about the setup including:
 - The file & directory structure needed
 - <img width="858" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/ab94d7b8-120b-4d7f-a854-ea120e02bc81">
 - The contents of each file before fixing the bug
@@ -20,7 +22,7 @@ TA post: You are right that the error might occur on line 44. Maybe you can try 
 - The full command line (or lines) you ran to trigger the bug
 - <img width="601" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/b082259d-697f-4028-9bb4-981d2f912d74">
 - A description of what to edit to fix the bug
-- 
+- changed `index1` to `index2`
 
 **PART 2 - Reflection**
 
