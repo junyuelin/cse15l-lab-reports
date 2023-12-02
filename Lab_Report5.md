@@ -1,8 +1,11 @@
 **PART 1 - Debugging Scenario**
 1. The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is. (Don’t actually make the post! Just write the content that would go in such a post)
 <img width="598" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/45817483-a9a1-4732-b1c6-5213f89a8ac4">
-Student post: For some reason, my code doesn't pass the testMerge2 test. Based on the output error, I am guessing there is something wrong with `merge` function on line 44. But I am not sure how to fix it. 
+
+Student post: For some reason, my code doesn't pass the `testMerge2` test. Based on the output error, I am guessing there is something wrong with `merge` function on line 44. But I am not sure how to fix it. 
 2. A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.)
+
+TA post: You are right that the error might occur on line 44. Maybe you can try take a look at the file content by using command `vim ListExamples.java`
 3. Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
 4. At the end, all the information needed about the setup including:
 - The file & directory structure needed
