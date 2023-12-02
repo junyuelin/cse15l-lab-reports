@@ -5,10 +5,12 @@
 Student post: For some reason, my code doesn't pass the `testMerge2` test. Based on the output error, I am guessing there is something wrong with `merge` function on line 44. But I am not sure how to fix it. 
 2. A response from a TA asking a leading question or suggesting a command to try (To be clear, you are mimicking a TA here.)
 
-TA post: You are right that the error might occur on line 44. Maybe you can try take a look at the file content by using command `vim ListExamples.java`
+TA post: You are right that the error might occur on line 44. Maybe you can try take a look at the file content by using command `vim ListExamples.java` and see if you can locate the error.
 
 3. Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
-4. At the end, all the information needed about the setup including:
+
+
+5. At the end, all the information needed about the setup including:
 - The file & directory structure needed
 - <img width="858" alt="image" src="https://github.com/junyuelin/cse15l-lab-reports/assets/97243889/ab94d7b8-120b-4d7f-a854-ea120e02bc81">
 - The contents of each file before fixing the bug
